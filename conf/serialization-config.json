@@ -1,0 +1,14 @@
+[
+  {
+    "name":"java.net.Inet4Address"
+  },
+  {
+    "name":"java.net.InetAddress"
+  },
+  {
+    "name":"java.net.InetSocketAddress"
+  },
+  {
+    "name":"java.net.SocketAddress"
+  }
+]

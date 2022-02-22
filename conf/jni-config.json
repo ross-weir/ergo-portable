@@ -1,0 +1,54 @@
+[
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.fusesource.leveldbjni.internal.NativeComparator$ComparatorJNI",
+  "fields":[
+    {"name":"BYTEWISE_COMPARATOR"}, 
+    {"name":"SIZEOF"}
+  ]
+},
+{
+  "name":"org.fusesource.leveldbjni.internal.NativeOptions",
+  "fields":[
+    {"name":"DEFAULT_ENV"}, 
+    {"name":"block_cache"}, 
+    {"name":"block_restart_interval"}, 
+    {"name":"block_size"}, 
+    {"name":"comparator"}, 
+    {"name":"compression"}, 
+    {"name":"create_if_missing"}, 
+    {"name":"env"}, 
+    {"name":"error_if_exists"}, 
+    {"name":"info_log"}, 
+    {"name":"max_open_files"}, 
+    {"name":"paranoid_checks"}, 
+    {"name":"write_buffer_size"}
+  ]
+},
+{
+  "name":"org.fusesource.leveldbjni.internal.NativeReadOptions",
+  "fields":[
+    {"name":"fill_cache"}, 
+    {"name":"snapshot"}, 
+    {"name":"verify_checksums"}
+  ]
+},
+{
+  "name":"org.fusesource.leveldbjni.internal.NativeSlice",
+  "fields":[
+    {"name":"data_"}, 
+    {"name":"size_"}
+  ]
+},
+{
+  "name":"org.fusesource.leveldbjni.internal.NativeSlice$SliceJNI",
+  "fields":[{"name":"SIZEOF"}]
+},
+{
+  "name":"org.fusesource.leveldbjni.internal.NativeWriteOptions",
+  "fields":[{"name":"sync"}]
+}
+]

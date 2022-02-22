@@ -1,0 +1,130 @@
+name: build
+on:
+  workflow_dispatch:
+
+jobs:
+  check_release:
+    name: Check new release
+    runs-on: ubuntu-20.04
+    outputs:
+      node_version: ${{ steps.check_version.outputs.node_version }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: check_version
+        run: |
+          sudo apt-get install jq -y
+
+          RELEASE_INFO=$(curl https://api.github.com/repos/ergoplatform/ergo/releases/latest)
+          CURRENT_VER=$(echo "$RELEASE_INFO" | jq -j '.tag_name')
+          LAST_BUILD_VER=$(cat VERSION)
+
+          if [[ "$CURRENT_VER" == "$LAST_BUILD_VER" ]]; then
+              echo "No new version"
+              exit 1
+          fi
+
+          DOWNLOAD_URL=$(echo "$RELEASE_INFO" | jq -j '.assets[] | .browser_download_url')
+          curl -L -o ergo.jar $DOWNLOAD_URL
+          echo "::set-output name=node_version::${CURRENT_VER}"
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ergo-jar
+          path: ergo.jar
+          retention-days: 1
+  build_windows:
+    name: Windows build
+    needs: check_release
+    runs-on: windows-2019
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: amd64
+      - uses: actions/download-artifact@v2
+        with:
+          name: ergo-jar
+      - name: Install GraalVM
+        run: ./scripts/setup.sh
+        shell: bash
+      - name: Build node
+        run: ./scripts/build.sh
+        shell: bash
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ergo-windows
+          path: ergo.exe
+          retention-days: 1
+  build_linux:
+    name: Linux build
+    needs: check_release
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: ergo-jar
+      - name: Install GraalVM
+        run: ./scripts/setup.sh
+        shell: bash
+      - name: Build node
+        run: ./scripts/build.sh
+        shell: bash
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ergo-linux
+          path: ./ergo
+          retention-days: 1
+  build_macos:
+    name: Macos build
+    needs: check_release
+    runs-on: macos-11
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: ergo-jar
+      - name: Install GraalVM
+        run: ./scripts/setup.sh
+        shell: bash
+      - name: Build node
+        run: ./scripts/build.sh
+        shell: bash
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ergo-macos
+          path: ./ergo
+          retention-days: 1
+  release:
+    name: Release
+    needs: [check_release, build_windows, build_linux, build_macos]
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: ergo-windows
+          path: ./dist
+      - run: mv ./dist/ergo.exe ./dist/ergo-windows-${{ needs.check_release.outputs.node_version }}.exe
+      - uses: actions/download-artifact@v2
+        with:
+          name: ergo-linux
+          path: ./dist
+      - run: mv ./dist/ergo ./dist/ergo-linux-${{ needs.check_release.outputs.node_version }}
+      - uses: actions/download-artifact@v2
+        with:
+          name: ergo-macos
+          path: ./dist
+      - run: mv ./dist/ergo ./dist/ergo-darwin-${{ needs.check_release.outputs.node_version }}
+      - run: ls
+      - run: |
+          echo "${{ needs.check_release.outputs.node_version }}" > VERSION
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config --global user.name github-actions[bot]
+          git commit -am "Bump version ${{ needs.check_release.outputs.node_version }}"
+          git push
+          git tag ${{ needs.check_release.outputs.node_version }}
+          git push --tags
+      - uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ needs.check_release.outputs.node_version }}
+          files: ./dist/*

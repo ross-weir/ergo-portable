@@ -1,0 +1,1437 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[Lakka.actor.LightArrayRevolverScheduler$TaskQueue;"
+},
+{
+  "name":"[Lakka.stream.stage.GraphStageLogic;"
+},
+{
+  "name":"[Lfastparse.core.Parser;"
+},
+{
+  "name":"[Ljava.lang.Class;"
+},
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"[Ljava.lang.reflect.Method;"
+},
+{
+  "name":"[Lorg.ergoplatform.DataInput;"
+},
+{
+  "name":"[Lorg.ergoplatform.ErgoBox$RegisterId;"
+},
+{
+  "name":"[Lorg.ergoplatform.ErgoBox;"
+},
+{
+  "name":"[Lorg.ergoplatform.ErgoBoxCandidate;"
+},
+{
+  "name":"[Lorg.ergoplatform.Input;"
+},
+{
+  "name":"[Lorg.ergoplatform.modifiers.history.header.Header;"
+},
+{
+  "name":"[Lscala.Tuple2;"
+},
+{
+  "name":"[Lscalan.Base$Ref;"
+},
+{
+  "name":"[Lscalan.TypeDescs$TypeDesc;"
+},
+{
+  "name":"[Lscalan.staged.AstGraphs$GraphNode;"
+},
+{
+  "name":"[Lsigmastate.ArithOp$OperationImpl;"
+},
+{
+  "name":"[Lsigmastate.ArithOpCompanion;"
+},
+{
+  "name":"[Lsigmastate.ProofTree;"
+},
+{
+  "name":"[Lsigmastate.SType;"
+},
+{
+  "name":"[Lsigmastate.STypeVar;"
+},
+{
+  "name":"[Lsigmastate.UncheckedSigmaTree;"
+},
+{
+  "name":"[Lsigmastate.Values$BlockItem;"
+},
+{
+  "name":"[Lsigmastate.Values$Constant;"
+},
+{
+  "name":"[Lsigmastate.Values$SigmaBoolean;"
+},
+{
+  "name":"[Lsigmastate.Values$Value;"
+},
+{
+  "name":"[Lsigmastate.lang.Terms$STypeParam;"
+},
+{
+  "name":"[Lsigmastate.serialization.ValueSerializer;"
+},
+{
+  "name":"[Lspecial.collection.Coll;"
+},
+{
+  "name":"[Lspecial.collection.Size;"
+},
+{
+  "name":"[Lspecial.collection.SizeColl;"
+},
+{
+  "name":"[Lspecial.collection.SizePair;"
+},
+{
+  "name":"[Lspecial.sigma.Box;"
+},
+{
+  "name":"[Lspecial.sigma.GroupElement;"
+},
+{
+  "name":"[Lspecial.sigma.Header;"
+},
+{
+  "name":"[Lspecial.sigma.SigmaProp;"
+},
+{
+  "name":"[Lsun.security.pkcs.SignerInfo;"
+},
+{
+  "name":"[[B"
+},
+{
+  "name":"akka.actor.ActorCell",
+  "fields":[
+    {"name":"akka$actor$dungeon$Children$$_childrenRefsDoNotCallMeDirectly"}, 
+    {"name":"akka$actor$dungeon$Children$$_functionRefsDoNotCallMeDirectly"}, 
+    {"name":"akka$actor$dungeon$Children$$_nextNameDoNotCallMeDirectly"}, 
+    {"name":"akka$actor$dungeon$Dispatch$$_mailboxDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.actor.DefaultSupervisorStrategy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.actor.LightArrayRevolverScheduler",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.LoggingAdapter","java.util.concurrent.ThreadFactory"] }]
+},
+{
+  "name":"akka.actor.LightArrayRevolverScheduler$TaskHolder",
+  "fields":[{"name":"task"}]
+},
+{
+  "name":"akka.actor.LocalActorRefProvider",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","akka.actor.ActorSystem$Settings","akka.event.EventStream","akka.actor.DynamicAccess"] }]
+},
+{
+  "name":"akka.actor.LocalActorRefProvider$Guardian",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.SupervisorStrategy"] }]
+},
+{
+  "name":"akka.actor.LocalActorRefProvider$SystemGuardian",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.SupervisorStrategy","akka.actor.ActorRef"] }]
+},
+{
+  "name":"akka.actor.Props$EmptyActor",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.actor.RepointableActorRef",
+  "fields":[
+    {"name":"_cellDoNotCallMeDirectly"}, 
+    {"name":"_lookupDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.AbstractNodeQueue",
+  "fields":[{"name":"_tailDoNotCallMeDirectly"}]
+},
+{
+  "name":"akka.dispatch.AbstractNodeQueue$Node",
+  "fields":[{"name":"_nextDoNotCallMeDirectly"}]
+},
+{
+  "name":"akka.dispatch.BoundedControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.BoundedDequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.BoundedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.ControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.DequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.Mailbox",
+  "fields":[
+    {"name":"_statusDoNotCallMeDirectly"}, 
+    {"name":"_systemQueueDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.MessageDispatcher",
+  "fields":[
+    {"name":"_inhabitantsDoNotCallMeDirectly"}, 
+    {"name":"_shutdownScheduleDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.dispatch.MultipleConsumerSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedControlAwareMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedDequeBasedMailbox",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.dispatch.UnboundedDequeBasedMessageQueueSemantics"
+},
+{
+  "name":"akka.dispatch.UnboundedMailbox",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.dispatch.UnboundedMessageQueueSemantics"
+},
+{
+  "name":"akka.event.DeadLetterListener",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.event.DefaultLoggingFilter",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","akka.event.EventStream"] }]
+},
+{
+  "name":"akka.event.EventStreamUnsubscriber",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.event.EventStream","boolean"] }]
+},
+{
+  "name":"akka.event.LoggerMailboxType",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.event.LoggerMessageQueueSemantics"
+},
+{
+  "name":"akka.event.Logging$DefaultLogger",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.http.DefaultParsingErrorHandler$",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.http.impl.engine.client.PoolMasterActor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"akka.io.SelectionHandler",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.io.SelectionHandlerSettings"] }]
+},
+{
+  "name":"akka.io.TcpIncomingConnection",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.io.TcpExt","java.nio.channels.SocketChannel","akka.io.ChannelRegistry","akka.actor.ActorRef","scala.collection.immutable.Traversable","boolean"] }]
+},
+{
+  "name":"akka.io.TcpListener",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorRef","akka.io.TcpExt","akka.io.ChannelRegistry","akka.actor.ActorRef","akka.io.Tcp$Bind"] }]
+},
+{
+  "name":"akka.io.TcpManager",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.io.TcpExt"] }]
+},
+{
+  "name":"akka.io.TcpOutgoingConnection",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.io.TcpExt","akka.io.ChannelRegistry","akka.actor.ActorRef","akka.io.Tcp$Connect"] }]
+},
+{
+  "name":"akka.pattern.PromiseActorRef",
+  "fields":[
+    {"name":"_stateDoNotCallMeDirectly"}, 
+    {"name":"_watchedByDoNotCallMeDirectly"}
+  ]
+},
+{
+  "name":"akka.routing.ConsistentHashingPool",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.RoundRobinPool",
+  "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]
+},
+{
+  "name":"akka.routing.RoutedActorCell$RouterActorCreator",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["akka.routing.RouterConfig"] }]
+},
+{
+  "name":"akka.serialization.BooleanSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.ByteArraySerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.ByteStringSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.DisabledJavaSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.IntSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.LongSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.serialization.SerializationExtension$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.serialization.StringSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.stream.SinkRef"
+},
+{
+  "name":"akka.stream.SourceRef"
+},
+{
+  "name":"akka.stream.SystemMaterializer$",
+  "fields":[{"name":"MODULE$"}]
+},
+{
+  "name":"akka.stream.impl.streamref.StreamRefsProtocol"
+},
+{
+  "name":"akka.stream.serialization.StreamRefSerializer",
+  "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]
+},
+{
+  "name":"akka.util.ByteString$ByteString1"
+},
+{
+  "name":"akka.util.ByteString$ByteString1C"
+},
+{
+  "name":"akka.util.ByteString$ByteStrings"
+},
+{
+  "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.filter.ThresholdFilter",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setLevel","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"ch.qos.logback.classic.jul.LevelChangePropagator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.DateConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LineSeparatorConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.LoggerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.MessageConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.pattern.ThreadConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.ConsoleAppender",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setTarget","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"ch.qos.logback.core.OutputStreamAppender",
+  "methods":[{"name":"setEncoder","parameterTypes":["ch.qos.logback.core.encoder.Encoder"] }]
+},
+{
+  "name":"ch.qos.logback.core.UnsynchronizedAppenderBase",
+  "methods":[{"name":"addFilter","parameterTypes":["ch.qos.logback.core.filter.Filter"] }]
+},
+{
+  "name":"ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+  "methods":[{"name":"setParent","parameterTypes":["ch.qos.logback.core.Appender"] }]
+},
+{
+  "name":"ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+  "methods":[{"name":"setPattern","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingFileAppender",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setFile","parameterTypes":["java.lang.String"] }, 
+    {"name":"setRollingPolicy","parameterTypes":["ch.qos.logback.core.rolling.RollingPolicy"] }
+  ]
+},
+{
+  "name":"ch.qos.logback.core.rolling.RollingPolicyBase",
+  "methods":[
+    {"name":"setFileNamePattern","parameterTypes":["java.lang.String"] }, 
+    {"name":"setParent","parameterTypes":["ch.qos.logback.core.FileAppender"] }
+  ]
+},
+{
+  "name":"ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy",
+  "queryAllPublicMethods":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setMaxFileSize","parameterTypes":["ch.qos.logback.core.util.FileSize"] }
+  ]
+},
+{
+  "name":"ch.qos.logback.core.rolling.TimeBasedRollingPolicy",
+  "methods":[
+    {"name":"setMaxHistory","parameterTypes":["int"] }, 
+    {"name":"setTotalSizeCap","parameterTypes":["ch.qos.logback.core.util.FileSize"] }
+  ]
+},
+{
+  "name":"ch.qos.logback.core.rolling.helper.DateTokenConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.core.util.FileSize",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.google.common.cache.Striped64",
+  "fields":[
+    {"name":"base"}, 
+    {"name":"busy"}
+  ]
+},
+{
+  "name":"com.google.common.hash.Striped64",
+  "fields":[
+    {"name":"base"}, 
+    {"name":"busy"}
+  ]
+},
+{
+  "name":"com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator"
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture",
+  "fields":[
+    {"name":"listeners"}, 
+    {"name":"value"}, 
+    {"name":"waiters"}
+  ]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[
+    {"name":"next"}, 
+    {"name":"thread"}
+  ]
+},
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.io.FilePermission"
+},
+{
+  "name":"java.io.Serializable"
+},
+{
+  "name":"java.lang.Boolean"
+},
+{
+  "name":"java.lang.Integer"
+},
+{
+  "name":"java.lang.Long"
+},
+{
+  "name":"java.lang.RuntimePermission"
+},
+{
+  "name":"java.lang.String",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.lang.Throwable",
+  "methods":[{"name":"getSuppressed","parameterTypes":[] }]
+},
+{
+  "name":"java.net.NetPermission"
+},
+{
+  "name":"java.net.SocketPermission"
+},
+{
+  "name":"java.net.URLPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.AllPermission"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.SecurityPermission"
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.PropertyPermission"
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "queriedMethods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"org.ergoplatform.nodeView.UtxoNodeViewHolder",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.ergoplatform.settings.ErgoSettings","scorex.core.utils.NetworkTimeProvider","org.ergoplatform.settings.Parameters"] }]
+},
+{
+  "name":"org.ergoplatform.nodeView.wallet.ErgoWalletActor",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.ergoplatform.settings.ErgoSettings","org.ergoplatform.settings.Parameters","org.ergoplatform.nodeView.wallet.ErgoWalletService","org.ergoplatform.wallet.boxes.BoxSelector","org.ergoplatform.nodeView.history.ErgoHistoryReader"] }]
+},
+{
+  "name":"org.fusesource.leveldbjni.JniDBFactory",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"pushMemoryPool","parameterTypes":["int"] }
+  ]
+},
+{
+  "name":"scala.Boolean"
+},
+{
+  "name":"scala.Int"
+},
+{
+  "name":"scala.Long"
+},
+{
+  "name":"scala.Some",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"scala.Symbol",
+  "methods":[{"name":"apply","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"scalan.TypeDescs$FuncElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scalan.Scalan","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"scalan.TypeDescs$PairElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scalan.Scalan","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"scalan.primitives.Thunks$ThunkElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scalan.Scalan","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"sigmastate.AND",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.ArithOp",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value","byte"] }]
+},
+{
+  "name":"sigmastate.AtLeast",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.BinAnd",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.BinOr",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.BoolToSigmaProp",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.ByteArrayToBigInt",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.CAndUncheckedNode",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["byte[]","scala.collection.Seq"] }]
+},
+{
+  "name":"sigmastate.COrUncheckedNode",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["byte[]","scala.collection.Seq"] }]
+},
+{
+  "name":"sigmastate.CalcBlake2b256",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.EQ",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.GE",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.GT",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.If",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.LE",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.LT",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.LogicalNot",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.NEQ",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.OR",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.SCollectionType",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.SType"] }]
+},
+{
+  "name":"sigmastate.STuple",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.IndexedSeq"] }]
+},
+{
+  "name":"sigmastate.SigmaAnd",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.Seq"] }]
+},
+{
+  "name":"sigmastate.SigmaOr",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.Seq"] }]
+},
+{
+  "name":"sigmastate.SubstConstants",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.Upcast",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.SNumericType"] }]
+},
+{
+  "name":"sigmastate.Values$BlockValue",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.IndexedSeq","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.Values$ConcreteCollection",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.Seq","sigmastate.SType"] }]
+},
+{
+  "name":"sigmastate.Values$FuncValue",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.IndexedSeq","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.Values$Tuple",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["scala.collection.IndexedSeq"] }]
+},
+{
+  "name":"sigmastate.Values$ValDef",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["int","scala.collection.Seq","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.eval.CostingRules$BoxCoster",
+  "methods":[
+    {"name":"creationInfo","parameterTypes":[] }, 
+    {"name":"getReg","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"tokens","parameterTypes":[] }
+  ]
+},
+{
+  "name":"sigmastate.eval.CostingRules$CollCoster",
+  "methods":[
+    {"name":"filter","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"indexOf","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"map","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"zip","parameterTypes":["scalan.Base$Ref"] }
+  ]
+},
+{
+  "name":"sigmastate.eval.CostingRules$ContextCoster",
+  "methods":[
+    {"name":"HEIGHT","parameterTypes":[] }, 
+    {"name":"INPUTS","parameterTypes":[] }, 
+    {"name":"OUTPUTS","parameterTypes":[] }, 
+    {"name":"SELF","parameterTypes":[] }, 
+    {"name":"dataInputs","parameterTypes":[] }, 
+    {"name":"minerPubKey","parameterTypes":[] }, 
+    {"name":"preHeader","parameterTypes":[] }
+  ]
+},
+{
+  "name":"sigmastate.eval.CostingRules$OptionCoster",
+  "methods":[
+    {"name":"get","parameterTypes":[] }, 
+    {"name":"getOrElse","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"isDefined","parameterTypes":[] }
+  ]
+},
+{
+  "name":"sigmastate.eval.CostingRules$PreHeaderCoster",
+  "methods":[{"name":"timestamp","parameterTypes":[] }]
+},
+{
+  "name":"sigmastate.eval.CostingRules$SigmaDslBuilderCoster",
+  "methods":[{"name":"groupGenerator","parameterTypes":[] }]
+},
+{
+  "name":"sigmastate.lang.Terms$Apply",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","scala.collection.IndexedSeq"] }]
+},
+{
+  "name":"sigmastate.lang.Terms$MethodCall",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.SMethod","scala.collection.IndexedSeq","scala.collection.immutable.Map"] }]
+},
+{
+  "name":"sigmastate.utxo.ByIndex",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value","scala.Option"] }]
+},
+{
+  "name":"sigmastate.utxo.Exists",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.ExtractAmount",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.ExtractCreationInfo",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.ExtractId",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.ExtractRegisterAs",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","org.ergoplatform.ErgoBox$RegisterId","sigmastate.SOption"] }]
+},
+{
+  "name":"sigmastate.utxo.ExtractScriptBytes",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.Filter",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.Fold",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.ForAll",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.MapCollection",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.OptionGet",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.OptionGetOrElse",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.SelectField",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","byte"] }]
+},
+{
+  "name":"sigmastate.utxo.SigmaPropBytes",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.SizeOf",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value"] }]
+},
+{
+  "name":"sigmastate.utxo.Slice",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["sigmastate.Values$Value","sigmastate.Values$Value","sigmastate.Values$Value"] }]
+},
+{
+  "name":"special.collection.Coll",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"apply","parameterTypes":["int"] }, 
+    {"name":"exists","parameterTypes":["scala.Function1"] }, 
+    {"name":"filter","parameterTypes":["scala.Function1"] }, 
+    {"name":"foldLeft","parameterTypes":["java.lang.Object","scala.Function1"] }, 
+    {"name":"forall","parameterTypes":["scala.Function1"] }, 
+    {"name":"getOrElse","parameterTypes":["int","java.lang.Object"] }, 
+    {"name":"indexOf","parameterTypes":["java.lang.Object","int"] }, 
+    {"name":"length","parameterTypes":[] }, 
+    {"name":"map","parameterTypes":["scala.Function1","scalan.RType"] }, 
+    {"name":"slice","parameterTypes":["int","int"] }, 
+    {"name":"sum","parameterTypes":["special.collection.Monoid"] }, 
+    {"name":"zip","parameterTypes":["special.collection.Coll"] }
+  ],
+  "queriedMethods":[
+    {"name":"flatMap","parameterTypes":["scala.Function1","scalan.RType"] }, 
+    {"name":"updated","parameterTypes":["int","java.lang.Object"] }
+  ]
+},
+{
+  "name":"special.collection.CollBuilder",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"fromItems","parameterTypes":["scala.collection.Seq","scalan.RType"] }]
+},
+{
+  "name":"special.collection.Colls$Coll",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"apply","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"exists","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"filter","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"foldLeft","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"forall","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"getOrElse","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"indexOf","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"length","parameterTypes":[] }, 
+    {"name":"map","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"slice","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"sum","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"zip","parameterTypes":["scalan.Base$Ref"] }
+  ]
+},
+{
+  "name":"special.collection.Colls$CollBuilder",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"fromItems","parameterTypes":["scala.collection.Seq","scalan.TypeDescs$Elem"] }, 
+    {"name":"replicate","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }
+  ]
+},
+{
+  "name":"special.collection.Costs$Costed",
+  "methods":[
+    {"name":"cost","parameterTypes":[] }, 
+    {"name":"size","parameterTypes":[] }, 
+    {"name":"value","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.collection.Costs$CostedColl",
+  "methods":[
+    {"name":"sizes","parameterTypes":[] }, 
+    {"name":"values","parameterTypes":[] }
+  ],
+  "queriedMethods":[{"name":"foldCosted","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }]
+},
+{
+  "name":"special.collection.Costs$CostedOption"
+},
+{
+  "name":"special.collection.Costs$CostedPair",
+  "methods":[
+    {"name":"accCost","parameterTypes":[] }, 
+    {"name":"l","parameterTypes":[] }, 
+    {"name":"r","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.collection.Size",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"dataSize","parameterTypes":[] }]
+},
+{
+  "name":"special.collection.SizeColl",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"sizes","parameterTypes":[] }]
+},
+{
+  "name":"special.collection.SizeOption",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"sizeOpt","parameterTypes":[] }]
+},
+{
+  "name":"special.collection.SizePair",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"l","parameterTypes":[] }, 
+    {"name":"r","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.collection.Sizes$Size",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[{"name":"dataSize","parameterTypes":[] }]
+},
+{
+  "name":"special.collection.Sizes$SizeColl",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"sizes","parameterTypes":[] }]
+},
+{
+  "name":"special.collection.Sizes$SizeOption",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[{"name":"sizeOpt","parameterTypes":[] }]
+},
+{
+  "name":"special.collection.Sizes$SizePair",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"l","parameterTypes":[] }, 
+    {"name":"r","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.collection.impl.CollsDefs$Coll$CollElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.CollsDefs$Coll$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteCostsDefs$CCostedColl$CCostedCollElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteCostsDefs$CCostedColl$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteCostsDefs$CCostedFunc$CCostedFuncElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteCostsDefs$CCostedFunc$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteCostsDefs$CCostedPair$CCostedPairElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteCostsDefs$CCostedPair$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteCostsDefs$CCostedPrim$CCostedPrimElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteCostsDefs$CCostedPrim$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteSizesDefs$CSizeColl$CSizeCollElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteSizesDefs$CSizeColl$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteSizesDefs$CSizeFunc$CSizeFuncElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteSizesDefs$CSizeFunc$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteSizesDefs$CSizeOption$CSizeOptionElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteSizesDefs$CSizeOption$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteSizesDefs$CSizePair$CSizePairElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteSizesDefs$CSizePair$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.ConcreteSizesDefs$CSizePrim$CSizePrimElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.ConcreteSizesDefs$CSizePrim$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.CostedOptionsDefs$CCostedOption$CCostedOptionElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.CostedOptionsDefs$CCostedOption$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.CostsDefs$Costed$CostedElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.CostsDefs$Costed$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.CostsDefs$CostedColl$CostedCollElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.CostsDefs$CostedColl$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.CostsDefs$CostedFunc$CostedFuncElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.CostsDefs$CostedFunc$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.CostsDefs$CostedPair$CostedPairElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.CostsDefs$CostedPair$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.SizesDefs$Size$SizeElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.SizesDefs$Size$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.SizesDefs$SizeColl$SizeCollElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.SizesDefs$SizeColl$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.SizesDefs$SizeOption$SizeOptionElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.SizesDefs$SizeOption$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.SizesDefs$SizePair$SizePairElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.SizesDefs$SizePair$","scalan.TypeDescs$Elem","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.collection.impl.SizesDefs$SizePrim$SizePrimElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["special.collection.impl.SizesDefs$SizePrim$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.sigma.Box",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"creationInfo","parameterTypes":[] }, 
+    {"name":"getReg","parameterTypes":["int","scalan.RType"] }, 
+    {"name":"id","parameterTypes":[] }, 
+    {"name":"propositionBytes","parameterTypes":[] }, 
+    {"name":"tokens","parameterTypes":[] }, 
+    {"name":"value","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.Context",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"HEIGHT","parameterTypes":[] }, 
+    {"name":"INPUTS","parameterTypes":[] }, 
+    {"name":"OUTPUTS","parameterTypes":[] }, 
+    {"name":"SELF","parameterTypes":[] }, 
+    {"name":"dataInputs","parameterTypes":[] }, 
+    {"name":"minerPubKey","parameterTypes":[] }, 
+    {"name":"preHeader","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.CostModel",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"AccessBox","parameterTypes":[] }, 
+    {"name":"GetRegister","parameterTypes":[] }, 
+    {"name":"SelectField","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.CostedObjects$SizeBox",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[{"name":"getReg","parameterTypes":["scalan.Base$Ref","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"special.sigma.CostedObjects$SizeContext",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"dataInputs","parameterTypes":[] }, 
+    {"name":"inputs","parameterTypes":[] }, 
+    {"name":"outputs","parameterTypes":[] }, 
+    {"name":"selfBox","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.PreHeader",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"timestamp","parameterTypes":[] }]
+},
+{
+  "name":"special.sigma.SigmaDsl$BigInt",
+  "queriedMethods":[
+    {"name":"add","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"mod","parameterTypes":["scalan.Base$Ref"] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaDsl$Box",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"creationInfo","parameterTypes":[] }, 
+    {"name":"getReg","parameterTypes":["scalan.Base$Ref","scalan.TypeDescs$Elem"] }, 
+    {"name":"id","parameterTypes":[] }, 
+    {"name":"propositionBytes","parameterTypes":[] }, 
+    {"name":"tokens","parameterTypes":[] }, 
+    {"name":"value","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaDsl$Context",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"HEIGHT","parameterTypes":[] }, 
+    {"name":"INPUTS","parameterTypes":[] }, 
+    {"name":"OUTPUTS","parameterTypes":[] }, 
+    {"name":"SELF","parameterTypes":[] }, 
+    {"name":"dataInputs","parameterTypes":[] }, 
+    {"name":"minerPubKey","parameterTypes":[] }, 
+    {"name":"preHeader","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaDsl$CostModel",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"AccessBox","parameterTypes":[] }, 
+    {"name":"GetRegister","parameterTypes":[] }, 
+    {"name":"SelectField","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaDsl$PreHeader",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[{"name":"timestamp","parameterTypes":[] }]
+},
+{
+  "name":"special.sigma.SigmaDsl$SigmaDslBuilder",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"CostModel","parameterTypes":[] }, 
+    {"name":"allOf","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"allZK","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"anyOf","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"anyZK","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"atLeast","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"blake2b256","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"byteArrayToBigInt","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"decodePoint","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"groupGenerator","parameterTypes":[] }, 
+    {"name":"proveDHTuple","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref","scalan.Base$Ref","scalan.Base$Ref"] }, 
+    {"name":"proveDlog","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"sigmaProp","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"substConstants","parameterTypes":["scalan.Base$Ref","scalan.Base$Ref","scalan.Base$Ref"] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaDsl$SigmaProp",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"isValid","parameterTypes":[] }, 
+    {"name":"propBytes","parameterTypes":[] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaDslBuilder",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"CostModel","parameterTypes":[] }, 
+    {"name":"allOf","parameterTypes":["special.collection.Coll"] }, 
+    {"name":"allZK","parameterTypes":["special.collection.Coll"] }, 
+    {"name":"anyOf","parameterTypes":["special.collection.Coll"] }, 
+    {"name":"anyZK","parameterTypes":["special.collection.Coll"] }, 
+    {"name":"atLeast","parameterTypes":["int","special.collection.Coll"] }, 
+    {"name":"blake2b256","parameterTypes":["special.collection.Coll"] }, 
+    {"name":"decodePoint","parameterTypes":["special.collection.Coll"] }, 
+    {"name":"proveDlog","parameterTypes":["special.sigma.GroupElement"] }, 
+    {"name":"sigmaProp","parameterTypes":["boolean"] }
+  ]
+},
+{
+  "name":"special.sigma.SigmaProp",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"propBytes","parameterTypes":[] }]
+},
+{
+  "name":"special.sigma.SizeBox",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getReg","parameterTypes":["byte","scalan.RType"] }]
+},
+{
+  "name":"special.sigma.SizeContext",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"dataInputs","parameterTypes":[] }, 
+    {"name":"inputs","parameterTypes":[] }, 
+    {"name":"outputs","parameterTypes":[] }, 
+    {"name":"selfBox","parameterTypes":[] }
+  ]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DRBG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.util.ObjectIdentifier"
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificateExtensions"
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"wrappers.scala.WOptions$WOption",
+  "queryAllDeclaredMethods":true,
+  "queriedMethods":[
+    {"name":"get","parameterTypes":[] }, 
+    {"name":"getOrElse","parameterTypes":["scalan.Base$Ref"] }, 
+    {"name":"isDefined","parameterTypes":[] }
+  ]
+},
+{
+  "name":"wrappers.scala.impl.WOptionsDefs$WOption$$anon$1",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"get","parameterTypes":["scala.Option"] }, 
+    {"name":"getOrElse","parameterTypes":["scala.Option","scala.Function0"] }, 
+    {"name":"isDefined","parameterTypes":["scala.Option"] }
+  ]
+},
+{
+  "name":"wrappers.scala.impl.WOptionsDefs$WOption$WOptionElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["wrappers.scala.impl.WOptionsDefs$WOption$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"wrappers.scalan.impl.WRTypesDefs$WRType$WRTypeElem",
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["wrappers.scalan.impl.WRTypesDefs$WRType$","scalan.TypeDescs$Elem"] }]
+},
+{
+  "name":"wrappers.special.WSpecialPredefs$WSpecialPredefCompanion",
+  "queriedMethods":[{"name":"some","parameterTypes":["scalan.Base$Ref"] }]
+}
+]
