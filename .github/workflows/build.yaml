@@ -1,8 +1,6 @@
 name: build
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '* */12 * * *'
 
 jobs:
   check_release:
