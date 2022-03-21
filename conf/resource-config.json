@@ -36,7 +36,10 @@
     }, 
     {
       "pattern":"\\Qtestnet.conf\\E"
-    }, 
+    },
+    {
+      "pattern":"\\Qmainnet.conf\\E"
+    },
     {
       "pattern":"\\Qversion.conf\\E"
     }
